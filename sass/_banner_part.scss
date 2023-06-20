@@ -1,0 +1,67 @@
+@import "./common";
+
+/* Banner part start */
+#banner {
+    background: url(../img/banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 88px 0;
+
+        .banner_items {
+            .banner_info {
+                text-align: right;
+
+                h1 {
+                    color: $white_color;
+                    font-size: 40px;
+                    font-weight: 700;
+                }
+
+                h2 {
+                    color: $white_color;
+                    font-size: 30px;
+                    font-weight: 500;
+                }
+
+                p {
+                    color: $white_color;
+                    line-height: 24px;
+                    padding: 40px 0;
+                }
+            }
+
+            .banner_btn {
+                text-align: right;
+
+                a {
+                    color: $white_color;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-align: center;
+                    letter-spacing: 1px;
+                    background: transparent;
+                    border: 2px solid $white_color;
+                    width: 84px;
+                    padding: 5px 9px;
+                    margin-left: 20px;
+                    transition: all linear .3s;
+                    #abbc{
+                        border: 2px solid $blue_color;
+                        background-color: $blue_color;
+                    }
+                    &:hover {
+                        background: $blue_color;
+                        border: 2px solid $blue_color
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+/* Banner part end */

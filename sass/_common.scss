@@ -1,0 +1,38 @@
+/* Common CSS start */
+
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+}
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul, li, ol{
+    list-style: none;
+}
+img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+p{
+    color: $apb_color;
+    font-size: $fs13px;
+    font-weight: $fw400;
+}
+h2{
+    color: $ahb_color;
+    font-size: $fs24px;
+    font-weight: $fw500;
+}
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+/* Common CSS end */

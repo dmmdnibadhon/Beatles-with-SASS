@@ -1,0 +1,35 @@
+/* Nav bar part start */
+nav{
+    background-color: $white_color;
+    padding: 10px 0;
+    .container{
+        .nav_items{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .nitems_left{
+
+            }
+            .nitems_right{
+                ul{
+                    display: flex;
+                    gap: 20px;
+                    li{
+                        
+                        a{
+                            color: $ahb_color;
+                            font-size: $fs14px;
+                            font-weight: $fw400;
+
+                            &:hover{
+                                color: $blue_color;
+                                transition: all linear .3s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* Nav bar part end */

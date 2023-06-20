@@ -1,0 +1,33 @@
+/* Header part start */
+header{
+    background-color: $blue_color;
+    padding: 10px 0;
+    .container{
+        .header_items{
+            display: flex;
+            justify-content: space-between;
+            .hitems_left{
+                p{
+                   color: $white_color; 
+                   font-weight: $fs14px;
+                   font-weight: $fw400;
+                }
+            }
+            .hitems_right{
+                a{
+                    color: $white_color;
+                    font-size: $fs13px;
+                    margin-left: 40px;
+
+                    &:hover{
+                        color: $ahb_color;
+                        transition: all linear .3s;
+                    }
+                }
+            }
+        }
+    }
+}
+/* Header part end */
+
+

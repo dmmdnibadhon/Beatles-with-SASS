@@ -1,0 +1,209 @@
+/* Colors variables start */
+/* Colors variables end */
+/* Font sizes and weight variables start */
+/* Font sizes and weight variables end */
+/* Colors variables start */
+/* Colors variables end */
+/* Colors variables start */
+/* Colors variables end */
+/* Common CSS start */
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li, ol {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+p {
+  color: #353535;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+h2 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/* Common CSS end */
+/* Header part start */
+header {
+  background-color: #0872b9;
+  padding: 10px 0;
+}
+header .container .header_items {
+  display: flex;
+  justify-content: space-between;
+}
+header .container .header_items .hitems_left p {
+  color: #FFFFFF;
+  font-weight: 14px;
+  font-weight: 400;
+}
+header .container .header_items .hitems_right a {
+  color: #FFFFFF;
+  font-size: 13px;
+  margin-left: 40px;
+}
+header .container .header_items .hitems_right a:hover {
+  color: #000000;
+  transition: all linear 0.3s;
+}
+
+/* Header part end */
+/* Nav bar part start */
+nav {
+  background-color: #FFFFFF;
+  padding: 10px 0;
+}
+nav .container .nav_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .container .nav_items .nitems_right ul {
+  display: flex;
+  gap: 20px;
+}
+nav .container .nav_items .nitems_right ul li a {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+}
+nav .container .nav_items .nitems_right ul li a:hover {
+  color: #0872b9;
+  transition: all linear 0.3s;
+}
+
+/* Nav bar part end */
+/* Common CSS start */
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li, ol {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+p {
+  color: #353535;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+h2 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/* Common CSS end */
+/* Banner part start */
+#banner {
+  background: url(../img/banner.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#banner .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 88px 0;
+}
+#banner .overlay .banner_items .banner_info {
+  text-align: right;
+}
+#banner .overlay .banner_items .banner_info h1 {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 700;
+}
+#banner .overlay .banner_items .banner_info h2 {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 500;
+}
+#banner .overlay .banner_items .banner_info p {
+  color: #FFFFFF;
+  line-height: 24px;
+  padding: 40px 0;
+}
+#banner .overlay .banner_items .banner_btn {
+  text-align: right;
+}
+#banner .overlay .banner_items .banner_btn a {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1px;
+  background: transparent;
+  border: 2px solid #FFFFFF;
+  width: 84px;
+  padding: 5px 9px;
+  margin-left: 20px;
+  transition: all linear 0.3s;
+}
+#banner .overlay .banner_items .banner_btn a #abbc {
+  border: 2px solid #0872b9;
+  background-color: #0872b9;
+}
+#banner .overlay .banner_items .banner_btn a:hover {
+  background: #0872b9;
+  border: 2px solid #0872b9;
+}
+
+/* Banner part end */
+/* CSS variables start */
+/* CSS variables end */
+/* Header section start */
+/* Header section end */
+/* Header section start */
+/* Header section end */
+/* Header section start */
+/* Header section end *//*# sourceMappingURL=style.css.map */
